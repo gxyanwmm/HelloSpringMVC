@@ -21,7 +21,7 @@ import com.springmvc.model.User;
 
 
 
-//url:  http://localhost:8080/HelloSpringMVC/hello/mvc //加上了此部分的修改---------在data-411修改
+//url:  http://localhost:8080/HelloSpringMVC/hello/mvc //加上了此部分的修改
 
 @Controller  //告诉DispatcherServlet相关的容器， 这是一个Controller，
 @RequestMapping(value="/hello")  //类级别的RequestMapping，告诉DispatcherServlet由这个类负责处理以及URL。HandlerMapping依靠这个标签来工作
